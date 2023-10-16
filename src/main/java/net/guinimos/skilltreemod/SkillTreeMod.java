@@ -1,6 +1,9 @@
 package net.guinimos.skilltreemod;
 
 import com.mojang.logging.LogUtils;
+
+import net.guinimos.skilltreemod.item.ModCreativeModeTabs;
+import net.guinimos.skilltreemod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -42,6 +45,10 @@ public class SkillTreeMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -61,7 +68,10 @@ public class SkillTreeMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.MITHRIL_INGOT);
+            event.accept(ModItems.RAW_MITHRIL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
