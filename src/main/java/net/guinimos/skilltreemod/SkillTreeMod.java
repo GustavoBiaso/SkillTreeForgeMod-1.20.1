@@ -2,6 +2,7 @@ package net.guinimos.skilltreemod;
 
 import com.mojang.logging.LogUtils;
 
+import net.guinimos.skilltreemod.block.ModBlocks;
 import net.guinimos.skilltreemod.item.ModCreativeModeTabs;
 import net.guinimos.skilltreemod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -48,6 +49,7 @@ public class SkillTreeMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

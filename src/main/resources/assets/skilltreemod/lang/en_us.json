@@ -2,5 +2,8 @@
     "item.skilltreemod.mithril_ingot": "Mithril Ingot",
     "item.skilltreemod.raw_mithril": "Raw Mithril",
 
+    "block.skilltreemod.mithril_block": "Mithril Block",
+    "block.skilltreemod.mithril_ore": "Mithril Ore",
+
     "creativetab.skilltree_tab": "SkillTree Items"
 }

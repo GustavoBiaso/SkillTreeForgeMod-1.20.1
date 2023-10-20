@@ -1,6 +1,7 @@
 package net.guinimos.skilltreemod.item;
 
 import net.guinimos.skilltreemod.SkillTreeMod;
+import net.guinimos.skilltreemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,7 +20,8 @@ public class ModCreativeModeTabs {
      .displayItems((pParameters, pOutput) -> {
         pOutput.accept(ModItems.MITHRIL_INGOT.get());
         pOutput.accept(ModItems.RAW_MITHRIL.get());
-        pOutput.accept(Items.DIAMOND);
+        pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
+        pOutput.accept(ModBlocks.MITHRIL_ORE.get());
      })
      .build());
 
