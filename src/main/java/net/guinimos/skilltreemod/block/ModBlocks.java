@@ -8,6 +8,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,6 +23,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MITHRIL_ORE = registerBlock("mithril_ore",  
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+
+    //public static final RegistryObject<Block> EXP_ORE = registerBlock("EXP_ORE",  
+    //() -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strengh(2f).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
