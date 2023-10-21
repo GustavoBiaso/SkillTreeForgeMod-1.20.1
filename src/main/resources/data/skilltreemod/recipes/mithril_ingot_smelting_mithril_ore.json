@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 100,
   "experience": 1,
   "group": "mithril_ingot",
   "ingredient": {
-    "item": "minecraft:raw_mithril"
+    "item": "skilltreemod:raw_mithril"
   },
-  "result": "minecraft:mithril_ingot"
+  "result": "skilltreemod:mithril_ingot"
 }
