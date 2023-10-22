@@ -6,7 +6,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -20,6 +19,7 @@ public class ModCreativeModeTabs {
      .displayItems((pParameters, pOutput) -> {
         pOutput.accept(ModItems.MITHRIL_INGOT.get());
         pOutput.accept(ModItems.RAW_MITHRIL.get());
+        pOutput.accept(ModItems.CORN.get());
         pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
         pOutput.accept(ModBlocks.MITHRIL_ORE.get());
      })
