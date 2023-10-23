@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "skilltreemod:block/mithril_block"
-    }
-}
