@@ -21,6 +21,18 @@ public class ModItemModelProvider extends ItemModelProvider{
         simpleItem(ModItems.CORN);
         simpleItem(ModItems.MITHRIL_INGOT);
         simpleItem(ModItems.RAW_MITHRIL);
+
+        handheldItem(ModItems.MITHRIL_SWORD);
+        handheldItem(ModItems.MITHRIL_PICKAXE);
+        handheldItem(ModItems.MITHRIL_AXE);
+        handheldItem(ModItems.MITHRIL_SHOVEL);
+        handheldItem(ModItems.MITHRIL_HOE);
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(SkillTreeMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

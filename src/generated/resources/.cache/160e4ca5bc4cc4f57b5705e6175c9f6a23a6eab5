@@ -1,4 +1,9 @@
-// 1.20.1	2023-10-23T18:38:00.243812	Item Models: skilltreemod
+// 1.20.1	2023-10-24T20:29:49.2510256	Item Models: skilltreemod
 9e1ca6be61717e5947662d0ff36fb07fef7e9e52 assets/skilltreemod/models/item/corn.json
+f86df4f11deb78ecadfecdfb776cf1e073d14945 assets/skilltreemod/models/item/mithril_axe.json
+0160cace2fcefd86a32ea1c6899ffa865297a487 assets/skilltreemod/models/item/mithril_hoe.json
 e20d6a92da8f23b81a4797a90beafa197c49911e assets/skilltreemod/models/item/mithril_ingot.json
+fc958de89df594d86ce2d32352e6b565cd1f088d assets/skilltreemod/models/item/mithril_pickaxe.json
+59d647838f8657a2d325cedf67733d527f892059 assets/skilltreemod/models/item/mithril_shovel.json
+fe6244f8247c6dc0183c030d3f3e1ee4c9cffb10 assets/skilltreemod/models/item/mithril_sword.json
 00e97564ea35de38c04b712b0ee1cda2a3aa0842 assets/skilltreemod/models/item/raw_mithril.json
