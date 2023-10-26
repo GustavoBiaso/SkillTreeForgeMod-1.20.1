@@ -20,11 +20,18 @@ public class ModCreativeModeTabs {
         pOutput.accept(ModItems.MITHRIL_INGOT.get());
         pOutput.accept(ModItems.RAW_MITHRIL.get());
         pOutput.accept(ModItems.CORN.get());
+
         pOutput.accept(ModItems.MITHRIL_SWORD.get());
         pOutput.accept(ModItems.MITHRIL_PICKAXE.get());
         pOutput.accept(ModItems.MITHRIL_AXE.get());
         pOutput.accept(ModItems.MITHRIL_SHOVEL.get());
         pOutput.accept(ModItems.MITHRIL_HOE.get());
+
+        pOutput.accept(ModItems.MITHRIL_HELMET.get());
+        pOutput.accept(ModItems.MITHRIL_CHESTPLATE.get());
+        pOutput.accept(ModItems.MITHRIL_LEGGINGS.get());
+        pOutput.accept(ModItems.MITHRIL_BOOTS.get());
+
         pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
         pOutput.accept(ModBlocks.MITHRIL_ORE.get());
      })
