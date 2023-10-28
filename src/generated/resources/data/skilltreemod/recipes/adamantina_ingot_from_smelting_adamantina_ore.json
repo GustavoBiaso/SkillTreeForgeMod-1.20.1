@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "adamantina",
+  "ingredient": {
+    "item": "skilltreemod:adamantina_ore"
+  },
+  "result": "skilltreemod:adamantina_ingot"
+}

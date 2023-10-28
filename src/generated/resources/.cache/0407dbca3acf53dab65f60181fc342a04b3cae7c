@@ -1,3 +1,3 @@
-// 1.20.1	2023-10-23T18:38:00.2488116	Tags for minecraft:block mod id skilltreemod
-b7e829623971d85ce33387b155aad9f239fa517f data/minecraft/tags/blocks/mineable/pickaxe.json
-b7e829623971d85ce33387b155aad9f239fa517f data/minecraft/tags/blocks/needs_iron_tool.json
+// 1.20.1	2023-10-28T10:58:06.7607923	Tags for minecraft:block mod id skilltreemod
+02d1619ad377d548fcd1ccf89f652550b91c967e data/minecraft/tags/blocks/mineable/pickaxe.json
+02d1619ad377d548fcd1ccf89f652550b91c967e data/minecraft/tags/blocks/needs_iron_tool.json

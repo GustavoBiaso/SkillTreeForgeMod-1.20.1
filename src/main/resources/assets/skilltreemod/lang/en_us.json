@@ -1,6 +1,8 @@
 {
     "item.skilltreemod.mithril_ingot": "Mithril Ingot",
     "item.skilltreemod.raw_mithril": "Raw Mithril",
+    "item.skilltreemod.adamantina_ingot": "Adamantina Ingot",
+    "item.skilltreemod.raw_adamantina": "Raw Adamantina",
     "item.skilltreemod.corn": "Corn",
 
     "item.skilltreemod.mithril_sword": "Mithril Sword",
@@ -16,6 +18,8 @@
 
     "block.skilltreemod.mithril_block": "Mithril Block",
     "block.skilltreemod.mithril_ore": "Mithril Ore",
+    "block.skilltreemod.adamantina_block": "Adamantina Block",
+    "block.skilltreemod.adamantina_ore": "Adamantina Ore",
 
     "creativetab.skilltree_tab": "SkillTree Items"
 }

@@ -1,4 +1,5 @@
-// 1.20.1	2023-10-25T23:49:14.8542549	Item Models: skilltreemod
+// 1.20.1	2023-10-28T10:58:06.7537971	Item Models: skilltreemod
+8fee570f09e1b736d767ab344297f08d1116d47c assets/skilltreemod/models/item/adamantina_ingot.json
 9e1ca6be61717e5947662d0ff36fb07fef7e9e52 assets/skilltreemod/models/item/corn.json
 f86df4f11deb78ecadfecdfb776cf1e073d14945 assets/skilltreemod/models/item/mithril_axe.json
 ab915e2e76be553f5c2cb508c7e1d71018ef1329 assets/skilltreemod/models/item/mithril_boots.json
@@ -50,4 +51,5 @@ bb381823096a481d080f66a29971eeb3e58af1fc assets/skilltreemod/models/item/mithril
 fc958de89df594d86ce2d32352e6b565cd1f088d assets/skilltreemod/models/item/mithril_pickaxe.json
 59d647838f8657a2d325cedf67733d527f892059 assets/skilltreemod/models/item/mithril_shovel.json
 fe6244f8247c6dc0183c030d3f3e1ee4c9cffb10 assets/skilltreemod/models/item/mithril_sword.json
+b171c5b886de77c0910f53ca2e535d91f51dd6a8 assets/skilltreemod/models/item/raw_adamantina.json
 00e97564ea35de38c04b712b0ee1cda2a3aa0842 assets/skilltreemod/models/item/raw_mithril.json

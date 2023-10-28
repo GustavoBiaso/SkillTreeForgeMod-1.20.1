@@ -19,8 +19,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MITHRIL_BLOCK = registerBlock("mithril_block",  
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-
     public static final RegistryObject<Block> MITHRIL_ORE = registerBlock("mithril_ore",  
+    () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+
+    public static final RegistryObject<Block> ADAMANTINA_BLOCK = registerBlock("adamantina_block",  
+    () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> ADAMANTINA_ORE = registerBlock("adamantina_ore",  
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
     //public static final RegistryObject<Block> EXP_ORE = registerBlock("EXP_ORE",  

@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
      .displayItems((pParameters, pOutput) -> {
         pOutput.accept(ModItems.MITHRIL_INGOT.get());
         pOutput.accept(ModItems.RAW_MITHRIL.get());
+        pOutput.accept(ModItems.ADAMANTINA_INGOT.get());
+        pOutput.accept(ModItems.RAW_ADAMANTINA.get());
         pOutput.accept(ModItems.CORN.get());
 
         pOutput.accept(ModItems.MITHRIL_SWORD.get());
@@ -34,6 +36,8 @@ public class ModCreativeModeTabs {
 
         pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
         pOutput.accept(ModBlocks.MITHRIL_ORE.get());
+        pOutput.accept(ModBlocks.ADAMANTINA_BLOCK.get());
+        pOutput.accept(ModBlocks.ADAMANTINA_ORE.get());
      })
      .build());
 

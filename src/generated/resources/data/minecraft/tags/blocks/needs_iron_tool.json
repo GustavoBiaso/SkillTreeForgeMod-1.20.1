@@ -1,6 +1,8 @@
 {
   "values": [
     "skilltreemod:mithril_ore",
-    "skilltreemod:mithril_block"
+    "skilltreemod:mithril_block",
+    "skilltreemod:adamantina_ore",
+    "skilltreemod:adamantina_block"
   ]
 }

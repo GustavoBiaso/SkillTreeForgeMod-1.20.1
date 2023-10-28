@@ -42,6 +42,8 @@ public class ModItemModelProvider extends ItemModelProvider{
         simpleItem(ModItems.CORN);
         simpleItem(ModItems.MITHRIL_INGOT);
         simpleItem(ModItems.RAW_MITHRIL);
+        simpleItem(ModItems.ADAMANTINA_INGOT);
+        simpleItem(ModItems.RAW_ADAMANTINA);
 
         handheldItem(ModItems.MITHRIL_SWORD);
         handheldItem(ModItems.MITHRIL_PICKAXE);

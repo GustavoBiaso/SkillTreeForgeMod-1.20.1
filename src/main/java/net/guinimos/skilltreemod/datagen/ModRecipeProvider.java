@@ -20,6 +20,7 @@ import net.minecraft.world.level.ItemLike;
 
 public class ModRecipeProvider extends RecipeProvider {
     private static final List<ItemLike> MITHRIL_SMELTABLES = List.of(ModItems.RAW_MITHRIL.get(), ModBlocks.MITHRIL_ORE.get());
+    private static final List<ItemLike> ADAMANTINA_SMELTABLES = List.of(ModItems.RAW_ADAMANTINA.get(), ModBlocks.ADAMANTINA_ORE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -29,6 +30,8 @@ public class ModRecipeProvider extends RecipeProvider {
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         oreBlasting(pWriter, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 0.25f, 100, "mithril");
         oreSmelting(pWriter, MITHRIL_SMELTABLES, RecipeCategory.MISC, ModItems.MITHRIL_INGOT.get(), 0.25f, 200, "mithril");
+        oreBlasting(pWriter, ADAMANTINA_SMELTABLES, RecipeCategory.MISC, ModItems.ADAMANTINA_INGOT.get(), 0.25f, 100, "adamantina");
+        oreSmelting(pWriter, ADAMANTINA_SMELTABLES, RecipeCategory.MISC, ModItems.ADAMANTINA_INGOT.get(), 0.25f, 200, "adamantina");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,ModBlocks.MITHRIL_BLOCK.get(), 1)
             .pattern("MMM")
@@ -41,6 +44,19 @@ public class ModRecipeProvider extends RecipeProvider {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.MITHRIL_INGOT.get(), 9)
             .requires(ModBlocks.MITHRIL_BLOCK.get())
             .unlockedBy(getHasName(ModBlocks.MITHRIL_BLOCK.get()), has(ModBlocks.MITHRIL_BLOCK.get()))
+            .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,ModBlocks.ADAMANTINA_BLOCK.get(), 1)
+            .pattern("MMM")
+            .pattern("MMM")
+            .pattern("MMM")
+            .define('M', ModItems.ADAMANTINA_INGOT.get())
+            .unlockedBy(getHasName(ModItems.ADAMANTINA_INGOT.get()), has(ModItems.ADAMANTINA_INGOT.get()))
+            .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.ADAMANTINA_INGOT.get(), 9)
+            .requires(ModBlocks.ADAMANTINA_BLOCK.get())
+            .unlockedBy(getHasName(ModBlocks.ADAMANTINA_BLOCK.get()), has(ModBlocks.ADAMANTINA_BLOCK.get()))
             .save(pWriter);
     }
 

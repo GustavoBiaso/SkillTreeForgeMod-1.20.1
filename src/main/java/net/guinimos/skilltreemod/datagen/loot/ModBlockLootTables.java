@@ -18,8 +18,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.MITHRIL_BLOCK.get());
-        
         this.add(ModBlocks.MITHRIL_ORE.get(), block -> createOreDrop(ModBlocks.MITHRIL_ORE.get(), ModItems.RAW_MITHRIL.get()));
+
+        this.dropSelf(ModBlocks.ADAMANTINA_BLOCK.get());
+        this.add(ModBlocks.ADAMANTINA_ORE.get(), block -> createOreDrop(ModBlocks.ADAMANTINA_ORE.get(), ModItems.RAW_ADAMANTINA.get()));
     }
 
     @Override

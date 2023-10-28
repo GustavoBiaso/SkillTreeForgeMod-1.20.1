@@ -18,6 +18,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> MITHRIL_INGOT = ITEMS.register("mithril_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_MITHRIL = ITEMS.register("raw_mithril", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ADAMANTINA_INGOT = ITEMS.register("adamantina_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_ADAMANTINA = ITEMS.register("raw_adamantina", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CORN = ITEMS.register("corn", () -> new Item(new Item.Properties().food(ModFoods.CORN)));
     //arrumar as danos e speeds dos itens. Por algum motivo a speed é 4
     public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword", () -> new SwordItem(ModToolTiers.MITHRIL, 6, 1.6f, new Item.Properties()));

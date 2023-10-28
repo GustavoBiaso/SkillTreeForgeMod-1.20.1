@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_MITHRIL_TOOL = tag("needs_mithril_tool");
+        public static final TagKey<Block> NEEDS_ADAMANTINA_TOOL = tag("needs_adamantina_tool");
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(SkillTreeMod.MOD_ID, name));

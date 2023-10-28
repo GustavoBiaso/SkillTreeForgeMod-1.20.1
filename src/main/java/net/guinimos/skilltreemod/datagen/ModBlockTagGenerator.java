@@ -26,8 +26,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         //this.tag(ModTags.Blocks.NOME_DA_TAG).add(ModBlocks.NOME_BLOCO.get()).addTag(Tags.Blocks.TAG_MINE);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.MITHRIL_ORE.get(), ModBlocks.MITHRIL_BLOCK.get());
-
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.MITHRIL_ORE.get(), ModBlocks.MITHRIL_BLOCK.get());
+        
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.ADAMANTINA_ORE.get(), ModBlocks.ADAMANTINA_BLOCK.get());
+        this.tag(BlockTags.NEEDS_IRON_TOOL).add(ModBlocks.ADAMANTINA_ORE.get(), ModBlocks.ADAMANTINA_BLOCK.get());
     }
     
 }

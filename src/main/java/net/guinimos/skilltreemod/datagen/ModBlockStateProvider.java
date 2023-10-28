@@ -18,6 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.MITHRIL_BLOCK);
         blockWithItem(ModBlocks.MITHRIL_ORE);
+        blockWithItem(ModBlocks.ADAMANTINA_BLOCK);
+        blockWithItem(ModBlocks.ADAMANTINA_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
