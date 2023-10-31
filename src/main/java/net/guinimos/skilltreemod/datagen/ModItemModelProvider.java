@@ -40,6 +40,7 @@ public class ModItemModelProvider extends ItemModelProvider{
     @Override
     protected void registerModels() {
         simpleItem(ModItems.CORN);
+        simpleItem(ModItems.LETTUCE);
         simpleItem(ModItems.MITHRIL_INGOT);
         simpleItem(ModItems.RAW_MITHRIL);
         simpleItem(ModItems.ADAMANTINA_INGOT);

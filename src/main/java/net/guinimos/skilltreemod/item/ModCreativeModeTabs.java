@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
         pOutput.accept(ModItems.ADAMANTINA_INGOT.get());
         pOutput.accept(ModItems.RAW_ADAMANTINA.get());
         pOutput.accept(ModItems.CORN.get());
+        pOutput.accept(ModItems.LETTUCE.get());
 
         pOutput.accept(ModItems.MITHRIL_SWORD.get());
         pOutput.accept(ModItems.MITHRIL_PICKAXE.get());

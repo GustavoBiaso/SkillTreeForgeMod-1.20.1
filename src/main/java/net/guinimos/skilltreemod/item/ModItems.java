@@ -21,6 +21,7 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTINA_INGOT = ITEMS.register("adamantina_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_ADAMANTINA = ITEMS.register("raw_adamantina", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CORN = ITEMS.register("corn", () -> new Item(new Item.Properties().food(ModFoods.CORN)));
+    public static final RegistryObject<Item> LETTUCE = ITEMS.register("lettuce", () -> new Item(new Item.Properties().food(ModFoods.LETTUCE)));
     //arrumar as danos e speeds dos itens. Por algum motivo a speed é 4
     public static final RegistryObject<Item> MITHRIL_SWORD = ITEMS.register("mithril_sword", () -> new SwordItem(ModToolTiers.MITHRIL, 6, 1.6f, new Item.Properties()));
     public static final RegistryObject<Item> MITHRIL_PICKAXE = ITEMS.register("mithril_pickaxe", () -> new PickaxeItem(ModToolTiers.MITHRIL, 4, 1.2f, new Item.Properties()));
