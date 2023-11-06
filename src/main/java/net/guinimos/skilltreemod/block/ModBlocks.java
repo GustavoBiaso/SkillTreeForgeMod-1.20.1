@@ -3,6 +3,7 @@ package net.guinimos.skilltreemod.block;
 import com.google.common.base.Supplier;
 
 import net.guinimos.skilltreemod.SkillTreeMod;
+import net.guinimos.skilltreemod.block.custom.LettuceCropBlock;
 import net.guinimos.skilltreemod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -26,6 +27,9 @@ public class ModBlocks {
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> ADAMANTINA_ORE = registerBlock("adamantina_ore",  
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+
+    public static final RegistryObject<Block> LETTUCE_CROP = BLOCKS.register("lettuce_crop",  
+    () -> new LettuceCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
 
     //public static final RegistryObject<Block> EXP_ORE = registerBlock("EXP_ORE",  
     //() -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strengh(2f).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));
