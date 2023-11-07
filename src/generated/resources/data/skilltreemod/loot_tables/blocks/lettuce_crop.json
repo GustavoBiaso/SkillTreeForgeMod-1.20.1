@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "skilltreemod:lettuce"
+              "name": "skilltreemod:lettuce_seeds"
             }
           ]
         }
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "skilltreemod:lettuce"
+          "name": "skilltreemod:lettuce_seeds"
         }
       ],
       "rolls": 1.0

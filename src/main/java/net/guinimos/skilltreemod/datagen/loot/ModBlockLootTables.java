@@ -33,7 +33,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(LettuceCropBlock.AGE, 3));
 
         this.add(ModBlocks.LETTUCE_CROP.get(), createCropDrops(ModBlocks.LETTUCE_CROP.get(), ModItems.LETTUCE.get(),
-                ModItems.LETTUCE.get(), lootitemcondition$builder));
+                ModItems.LETTUCE_SEEDS.get(), lootitemcondition$builder));
     }
 
     @Override

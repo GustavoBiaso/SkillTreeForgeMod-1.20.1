@@ -1,5 +1,6 @@
-// 1.20.1	2023-10-28T10:58:06.7587941	Loot Tables
+// 1.20.1	2023-11-07T12:51:35.1379658	Loot Tables
 885f93ad638d4392a2e209b39a0a1e922491d68d data/skilltreemod/loot_tables/blocks/adamantina_block.json
 e9e67e42e7a71d79bb2b2769882023ecbcfc76eb data/skilltreemod/loot_tables/blocks/adamantina_ore.json
+c344315d1fe575c7540cdc34c6343147103f0f84 data/skilltreemod/loot_tables/blocks/lettuce_crop.json
 4567ee29e676820b717376553ca423450cf515dc data/skilltreemod/loot_tables/blocks/mithril_block.json
 0f1c9b3a9d06e142cce8c571efa4fb2e5fca8c8d data/skilltreemod/loot_tables/blocks/mithril_ore.json

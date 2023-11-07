@@ -29,7 +29,7 @@ public class ModBlocks {
     () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
     public static final RegistryObject<Block> LETTUCE_CROP = BLOCKS.register("lettuce_crop",  
-    () -> new LettuceCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
+    () -> new LettuceCropBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission().noOcclusion()));
 
     //public static final RegistryObject<Block> EXP_ORE = registerBlock("EXP_ORE",  
     //() -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strengh(2f).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));

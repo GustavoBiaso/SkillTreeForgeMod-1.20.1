@@ -1,7 +1,8 @@
-// 1.20.1	2023-10-31T20:02:56.7556	Item Models: skilltreemod
+// 1.20.1	2023-11-07T12:18:49.9450812	Item Models: skilltreemod
 8fee570f09e1b736d767ab344297f08d1116d47c assets/skilltreemod/models/item/adamantina_ingot.json
 9e1ca6be61717e5947662d0ff36fb07fef7e9e52 assets/skilltreemod/models/item/corn.json
 040bade0155e095744f06f04444baad6ef799c18 assets/skilltreemod/models/item/lettuce.json
+60867048a10a6bf7586077633776e0fa69ca0103 assets/skilltreemod/models/item/lettuce_seeds.json
 f86df4f11deb78ecadfecdfb776cf1e073d14945 assets/skilltreemod/models/item/mithril_axe.json
 ab915e2e76be553f5c2cb508c7e1d71018ef1329 assets/skilltreemod/models/item/mithril_boots.json
 6f61adaa3280fe887f1c4582f3da4d0896ad2c85 assets/skilltreemod/models/item/mithril_boots_amethyst_trim.json
