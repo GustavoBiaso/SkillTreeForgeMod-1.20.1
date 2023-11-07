@@ -34,6 +34,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.LETTUCE_CROP.get(), createCropDrops(ModBlocks.LETTUCE_CROP.get(), ModItems.LETTUCE.get(),
                 ModItems.LETTUCE_SEEDS.get(), lootitemcondition$builder));
+
+        this.dropSelf(ModBlocks.SWIFTTHISTLE.get());
+        this.add(ModBlocks.POTTED_SWIFTTHISTLE.get(), block -> createPotFlowerItemTable(ModBlocks.SWIFTTHISTLE.get()));
+
     }
 
     @Override

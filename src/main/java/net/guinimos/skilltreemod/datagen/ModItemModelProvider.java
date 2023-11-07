@@ -3,6 +3,7 @@ package net.guinimos.skilltreemod.datagen;
 import java.util.LinkedHashMap;
 
 import net.guinimos.skilltreemod.SkillTreeMod;
+import net.guinimos.skilltreemod.block.ModBlocks;
 import net.guinimos.skilltreemod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -12,6 +13,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -57,6 +59,8 @@ public class ModItemModelProvider extends ItemModelProvider{
         trimmedArmorItem(ModItems.MITHRIL_CHESTPLATE);
         trimmedArmorItem(ModItems.MITHRIL_LEGGINGS);
         trimmedArmorItem(ModItems.MITHRIL_BOOTS);
+
+        simpleBlockItemBlockTexture(ModBlocks.SWIFTTHISTLE);
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
@@ -117,5 +121,10 @@ public class ModItemModelProvider extends ItemModelProvider{
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(SkillTreeMod.MOD_ID,"item/" + item.getId().getPath()));
     }
-    
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(SkillTreeMod.MOD_ID,"block/" + item.getId().getPath()));
+    }
 }

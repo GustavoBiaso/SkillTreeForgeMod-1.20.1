@@ -5,10 +5,13 @@ import com.google.common.base.Supplier;
 import net.guinimos.skilltreemod.SkillTreeMod;
 import net.guinimos.skilltreemod.block.custom.LettuceCropBlock;
 import net.guinimos.skilltreemod.item.ModItems;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,6 +33,11 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> LETTUCE_CROP = BLOCKS.register("lettuce_crop",  
     () -> new LettuceCropBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS).noCollission().noOcclusion()));
+
+    public static final RegistryObject<Block> SWIFTTHISTLE = registerBlock("swiftthistle",  
+    () -> new FlowerBlock(() -> MobEffects.DAMAGE_BOOST, 15, BlockBehaviour.Properties.copy(Blocks.DANDELION).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> POTTED_SWIFTTHISTLE = BLOCKS.register("potted_swiftthistle",  
+    () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.SWIFTTHISTLE, BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
 
     //public static final RegistryObject<Block> EXP_ORE = registerBlock("EXP_ORE",  
     //() -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strengh(2f).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));

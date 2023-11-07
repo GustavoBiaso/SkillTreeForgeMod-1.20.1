@@ -29,6 +29,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ADAMANTINA_ORE);
 
         makeLettuceCrop((CropBlock) ModBlocks.LETTUCE_CROP.get(), "lettuce_stage", "lettuce_stage");
+
+        simpleBlockWithItem(ModBlocks.SWIFTTHISTLE.get(), models().cross(blockTexture(ModBlocks.SWIFTTHISTLE.get()).getPath(), blockTexture(ModBlocks.SWIFTTHISTLE.get())).renderType("cutout"));
+        simpleBlockWithItem(ModBlocks.POTTED_SWIFTTHISTLE.get(), models().singleTexture("potted_swiftthistle", new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModBlocks.SWIFTTHISTLE.get())).renderType("cutout"));
     }
 
     public void makeLettuceCrop(CropBlock block, String modelName, String textureName) {

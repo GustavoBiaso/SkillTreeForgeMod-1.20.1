@@ -40,6 +40,8 @@ public class ModCreativeModeTabs {
         pOutput.accept(ModBlocks.MITHRIL_ORE.get());
         pOutput.accept(ModBlocks.ADAMANTINA_BLOCK.get());
         pOutput.accept(ModBlocks.ADAMANTINA_ORE.get());
+
+        pOutput.accept(ModBlocks.SWIFTTHISTLE.get());
      })
      .build());
 

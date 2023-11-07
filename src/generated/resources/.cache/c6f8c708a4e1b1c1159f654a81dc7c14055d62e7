@@ -1,9 +1,11 @@
-// 1.20.1	2023-11-07T12:18:49.9470802	Block States: skilltreemod
+// 1.20.1	2023-11-07T13:29:51.5593677	Block States: skilltreemod
 6f1ff7a8dfd404bc6b36498cd0c61b207e127a51 assets/skilltreemod/blockstates/adamantina_block.json
 aa71564798ea680728b498c43a664d80615ad596 assets/skilltreemod/blockstates/adamantina_ore.json
 2a3eaad939b1e78e36a64ce424601c31213c85b8 assets/skilltreemod/blockstates/lettuce_crop.json
 36f6e7e4b750c42f81fe8ef81ddcafb3adfa48b5 assets/skilltreemod/blockstates/mithril_block.json
 aeadb54d73482184f7f8ea989d762bbd0c18514f assets/skilltreemod/blockstates/mithril_ore.json
+72374d09dcbce75fab577301491bd763deb81afe assets/skilltreemod/blockstates/potted_swiftthistle.json
+60b54dc3ae8cffcc0ccbec308202b7cb82420ff2 assets/skilltreemod/blockstates/swiftthistle.json
 07139cf9f216b505d7b17ac118d136f3893688ba assets/skilltreemod/models/block/adamantina_block.json
 62acfd9909b08eac2c008ac5007b6167ad6ed569 assets/skilltreemod/models/block/adamantina_ore.json
 f19ef93981a6e83fe73f9524193f397dfc860b52 assets/skilltreemod/models/block/lettuce_stage0.json
@@ -12,7 +14,11 @@ f19ef93981a6e83fe73f9524193f397dfc860b52 assets/skilltreemod/models/block/lettuc
 920a3a8f2d5ed1a7dde42352d8eae13a042bcd48 assets/skilltreemod/models/block/lettuce_stage3.json
 beaa4f9909f47a3dd695f2e6bb0f58af4c756744 assets/skilltreemod/models/block/mithril_block.json
 a531e5970e66d841b7cb002677d392402ffd24f5 assets/skilltreemod/models/block/mithril_ore.json
+fed3769b9d76bcaf6d20ad371a7614cd425f37ea assets/skilltreemod/models/block/potted_swiftthistle.json
+97a3b172991122f7b4b7a790949926bf681a6788 assets/skilltreemod/models/block/swiftthistle.json
 600fbc277776557045ddec56a6201b62aa6ce7f5 assets/skilltreemod/models/item/adamantina_block.json
 195ef82e90eb75561d39d8f0c2ce2683c5b2d6e9 assets/skilltreemod/models/item/adamantina_ore.json
 238daa3b65c013df644d9e412a9f8c3ddfcb8d47 assets/skilltreemod/models/item/mithril_block.json
 fc76b5c138ce8b3226391c70610ad0468b2a7791 assets/skilltreemod/models/item/mithril_ore.json
+f06aef842ab0093f94cf315944d2a532e149915e assets/skilltreemod/models/item/potted_swiftthistle.json
+539c27e827c652430338d880b80af941eae89267 assets/skilltreemod/models/item/swiftthistle.json

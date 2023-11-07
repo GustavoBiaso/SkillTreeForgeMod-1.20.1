@@ -5,7 +5,8 @@ import com.mojang.logging.LogUtils;
 import net.guinimos.skilltreemod.block.ModBlocks;
 import net.guinimos.skilltreemod.item.ModCreativeModeTabs;
 import net.guinimos.skilltreemod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -49,7 +50,9 @@ public class SkillTreeMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SWIFTTHISTLE.getId(), ModBlocks.POTTED_SWIFTTHISTLE);
+        });
     }
 
     // Add the example block item to the building blocks tab
